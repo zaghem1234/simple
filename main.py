@@ -1,6 +1,7 @@
 from addition import add
 from subtraction import subtraction
 from multiply import multiply
+from exponent import power
 
 
 if __name__=="__main__":
@@ -11,3 +12,4 @@ if __name__=="__main__":
     print(add(A,B))
     print(multiply(A,B))
     print(subtraction(A,B))
+    print(power(A,B))
